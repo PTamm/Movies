@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
     rc = sqlite3_prepare_v2(db,sql_stmt,-1,&stmt,0);
 
     if (rc != SQLITE_OK){
-        fprintf(stderr,"Preparation failed: %s\n",sqlite_errmsg(db));
+        fprintf(stderr,"Preparation failed: %s\n",sqlite3_errmsg(db));
         sqlite3_close(db);
         return 1;
     }
@@ -35,7 +35,7 @@ int main(int argc, char *argv[]){
 
     while((rc = sqlite3_step(stmt)) == SQLITE_ROW) {
         for (col = 0; col < sqlite3_column_count(stmt); col++){
-            printf("%s",sqlite3_column_text);
+            printf("%s",sqlite3_column_text(stmt,col));
         }
         printf("\n");
     }
