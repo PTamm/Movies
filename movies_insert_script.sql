@@ -1,0 +1,12 @@
+insert into movies values ("Cyrano de Bergerac", 1950, "Jose Ferrer, Mala Powers, William Prince");
+insert into movies values ("Jane Eyre", 1943, "Joan Fontaine, Orson Welles");
+insert into movies values ("Citizen Kane", 1941, "Orson Welles, Joseph Cotten, Dorothy Comingore");
+insert into movies values ("The Third Man", 1949, "Joseph Cotten, Orson Welles, Alida Valli, Trevor Howard");
+insert into movies values ("Witness for the Prosecution", 1957, "Charles Laughton, Tyrone Power, Marlene Dietrich");
+insert into movies values ("Ivanhoe", 1952, "Robert Taylor, Joan Fontaine, Elizabeth Taylor, Guy Rolfe, George Sanders");
+insert into movies values ("The Prisoner of Zenda", 1937, "Ronald Colman, Madeleine Carrol, Raymond Massey, Douglas Fairbanks Jr.");
+insert into movies values ("The Search", 1948, "Montgomery Clift, Ivan Jandl, Jarmila Novotna");
+insert into movies values ("The Prisoner of Zenda", 1952, "Stewart Granger, Deborah Kerr, Robert Douglas, James Mason");
+insert into movies values ("Oliver Twist", 1948, "John Howard Davies, Henry Stephenson, Alec Guiness");
+insert into movies values ("Captain Blood", 1935, "Errol Flynn, Olivia de Havilland, Basil Rathbone");
+insert into movies values ("The Sea Hawk", 1940, "Errol Flynn, Brenda Marshall, Flora Robson, Henry Daniell");
